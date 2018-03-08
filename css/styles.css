@@ -1,1 +1,116 @@
 /*  css stylesheet Interactive photo gallery  */ 
+
+
+/*==========================================
+          Style for search box
+
+        Color scheme:
+
+        hex #372554 russian blue
+        hex #372554  dark purple
+        hex  #231123  dark chocolate
+        hex # #000000 black
+        hex #49}5d63 warm medium grey
+
+===========================================*/
+body{
+    background-color: #231123;
+}
+form{
+    padding-top:2em;
+    width:95vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+input{
+    background-color:#7c9eb2 ;   
+    border:1px solid black;
+   font-size: 16px;
+    padding: .2em;
+    
+    width:90vw;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+
+img{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 2em;
+    width:95%
+}
+
+
+
+
+/*========================================
+
+            Lightbox styles
+
+
+
+========================================*/
+
+/*============================================
+               Media Query 
+            MIN WIDTH 768px
+    chrome  responsive 768px x 602px
+============================================*/
+@media only screen and (min-width: 768px){
+.container{
+margin:0 auto;
+margin-left: 8vw;
+}
+
+form{
+    
+    margin-top: 5vh;
+    margin-left: 23.5vw; 
+
+}
+input{
+
+    width: 24em;
+    padding:.5em;
+}
+img{
+    float: left;
+    height:170px;
+    width:170px;
+    margin:20px;
+    
+}
+li{
+    display:inline-block;
+}
+}/*==== end of media query 768px  ===========
+
+
+============================================
+               Media Query 
+            MIN WIDTH 1024px
+    Chrome responsive 1024px x 802px
+============================================*/
+
+
+@media only screen and (min-width: 1024px){
+
+form{
+    margin-left:29.5vw;
+}
+
+    input{
+    
+    
+    border-radius:1px;
+    /*margin-left: 30px;*/
+    margin:0 auto;
+}
+
+
+
+
+
+
+}/*   end of media query  */

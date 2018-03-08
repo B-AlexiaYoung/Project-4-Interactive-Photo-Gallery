@@ -1,1 +1,0 @@
- // javascript Interactive Photo gallery //
