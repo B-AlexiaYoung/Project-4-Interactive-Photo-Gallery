@@ -22,7 +22,7 @@ $("#search").keyup(function(){
   match [i].style.display="none";
   }
 
-  };
+  }
 
 
 })
@@ -37,18 +37,4 @@ $("#search").keyup(function(){
 
 
   
-//   I'm stuck!!
-//for(i=0; i=photoList.length; i++){
-            
-            
-            
-            //let match = getElementsByTagName('a')[i].getAttribute('data-title');
-          
-                //if (match.includes(searchTerm)){
-                 //   display: li[i];
-               // } else  {
-                //    hide:li[i];
-                //}
 
-            
-//})
