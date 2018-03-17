@@ -18,9 +18,7 @@ body{
 }
 form{
     padding-top:2em;
-    width:95vw;
-    margin-left:auto;
-    margin-right:auto;
+    text-align:center;
 }
 input{
     background-color:#7c9eb2 ;   
@@ -34,11 +32,9 @@ input{
    
 }
 
-img{
-    margin-left: auto;
-    margin-right:auto;
-    margin-top: 2em;
-    width:95%
+.thumb{
+    margin:20px 60px;
+    
 }
 
 
@@ -55,49 +51,76 @@ img{
 /*============================================
                Media Query 
             MIN WIDTH 768px
-    chrome  responsive 768px x 602px
+    
 ============================================*/
 @media only screen and (min-width: 768px){
+
+
+    body{ 
+        width:90%;
+        
+        margin: 0 auto;
+    }
 .container{
-margin:0 auto;
-margin-left: 8vw;
+    width: 70%;    
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;  
+    margin-top: 30px;
+    text-align: center;
 }
 
 form{
-    
+    text-align:center;
     margin-top: 5vh;
-    margin-left: 23.5vw; 
+    
 
 }
 input{
-
-    width: 24em;
+  
+    width: 20em;
     padding:.5em;
 }
-img{
+
+
+    
+  
+  .thumb{
     float: left;
     height:170px;
     width:170px;
-    margin:20px;
+    margin:20px 33px;
     
 }
 li{
     display:inline-block;
 }
-}/*==== end of media query 768px  ===========
+
+/*==== end of media query 768px  ===========
 
 
 ============================================
                Media Query 
-            MIN WIDTH 1024px
-    Chrome responsive 1024px x 802px
+            MIN WIDTH 1100px
+                DESKTOP
 ============================================*/
 
 
-@media only screen and (min-width: 1024px){
-
+@media only screen and (min-width: 1100px){
+    .body{
+        /*height:60%;*/
+    }
+    .container{
+        width: 920px;    
+        margin: 0 auto;
+        padding-top: 2em;
+        padding-bottom: 2em;  
+        margin-top: 30px;
+        text-align: center;
+    }
 form{
-    margin-left:29.5vw;
+    margin: 0 auto;
+    /*margin-left:29.5vw;*/
 }
 
     input{
@@ -107,9 +130,14 @@ form{
     /*margin-left: 30px;*/
     margin:0 auto;
 }
+.thumb{
+    margin:27px;
+}
 
-
-
+ul{
+    -webkit-padding-start: 10px;
+    
+}
 
 
 
